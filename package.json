@@ -1,35 +1,35 @@
 {
-  "name": "typescript-template",
-  "version": "0.0.0",
-  "description": "A GNOME shell extension template, coded in TypeScript.",
-  "type": "module",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yshngg/gnome-shell-extension-typescript-template.git"
-  },
-  "author": "Yusheng <yshngg@outlook.com>",
-  "license": "Apache License 2.0",
-  "bugs": {
-    "url": "https://github.com/example/my-extension/issues"
-  },
-  "homepage": "https://github.com/yshngg/gnome-shell-extension-typescript-template.gite",
-  "sideEffects": false,
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
-    "eslint": "^9.39.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.54.0"
-  },
-  "dependencies": {
-    "@girs/clutter-17": "^17.0.0-4.0.0-beta.38",
-    "@girs/gjs": "^4.0.0-beta.38",
-    "@girs/gnome-shell": "^49.1.0",
-    "@girs/st-17": "^17.0.0-4.0.0-beta.38"
-  }
+    "name": "show-key",
+    "version": "0.0.0",
+    "description": "Show what keys are pressed in real-time.",
+    "type": "module",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/extension-rescue/show-key.git"
+    },
+    "author": "GNOME Shell Extensions Rescue Team <extension-rescue@github.io>",
+    "license": "Apache License 2.0",
+    "bugs": {
+        "url": "https://github.com/extension-rescue/show-key/issues"
+    },
+    "homepage": "https://github.com/extension-rescue/show-key",
+    "sideEffects": false,
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.2",
+        "@typescript-eslint/eslint-plugin": "^8.54.0",
+        "@typescript-eslint/parser": "^8.54.0",
+        "eslint": "^9.39.2",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.54.0"
+    },
+    "dependencies": {
+        "@girs/clutter-17": "^17.0.0-4.0.0-beta.38",
+        "@girs/gjs": "^4.0.0-beta.38",
+        "@girs/gnome-shell": "^49.1.0",
+        "@girs/st-17": "^17.0.0-4.0.0-beta.38"
+    }
 }

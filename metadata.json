@@ -1,8 +1,7 @@
 {
-  "name": "TypeScript Template",
-  "description": "A GNOME shell extension template, coded in TypeScript.",
-  "uuid": "typescript-template@yshngg.github.io",
-  "url": "https://github.com/yshngg/gnome-shell-extension-typescript-template",
-  "settings-schema": "org.gnome.shell.extensions.typescript-template",
-  "shell-version": ["45", "46", "47", "48", "49"]
+    "name": "Show Key",
+    "description": "Show what keys are pressed in real-time.",
+    "uuid": "show-key@extension-rescue.github.io",
+    "url": "https://github.com/extension-rescue/show-key",
+    "shell-version": ["45", "46", "47", "48", "49"]
 }

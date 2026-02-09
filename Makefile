@@ -1,5 +1,5 @@
-NAME=typescript-template
-DOMAIN=yshngg.github.io
+NAME=show-key
+DOMAIN=extension-rescue.github.io
 
 .PHONY: all pack install clean debug
 
@@ -12,9 +12,8 @@ dist/extension.js dist/prefs.js: node_modules/.package-lock.json *.ts
 	npm run build
 
 pack: dist/extension.js dist/prefs.js
-	@cp -r schemas dist/
 	@cp metadata.json dist/
-	gnome-extensions pack --force --schema schemas/org.gnome.shell.extensions.$(NAME).gschema.xml ./dist
+	gnome-extensions pack --force ./dist
 
 install: pack
 	gnome-extensions install --force $(NAME)@$(DOMAIN).shell-extension.zip
